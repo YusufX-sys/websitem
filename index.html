@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<h1 id="g">Selamun Aleyküm</h1>
+<button id="b">baa tıkla</button>
+<p id="y">Butona tıkla</p>
+<style>
+body{
+background-color: green;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+#b{
+width: 200px;
+height: 100px;
+transition: 0.5s;
+border-radius: 30px;
+cursor: pointer;
+font-size: 40px;
+}
+#g{
+font-size: 100px;
+}
+#y{
+font-size: 70px;
+}
+</style>
+<script>
+let buton = document.getElementById("b");
+buton.addEventListener("mouseover", function(){
+buton.style.backgroundColor = "black";
+buton.style.color = "white";
+});
+buton.addEventListener("mouseout", function(){
+buton.style.backgroundColor = "white";
+buton.style.color = "black";
+});
+buton.addEventListener("click", function(){
+let yazi = document.getElementById("y");
+yazi.innerText = "Butona tıkladın!";
+});
+</script>
