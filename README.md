@@ -1,0 +1,1 @@
+Bu benim ilk yaptığım web sitemdir. Dosyanın içinde JS, HTML ve CSS kodları vardır. İlk web sitem olduğu için çok fazla özellik yoktur. Butonun üzerine farenizi getirirseniz butonda bir animasyon olur ve butonun renkleri değişir. Butona tıklayın ve alttaki yazı değişsin!
